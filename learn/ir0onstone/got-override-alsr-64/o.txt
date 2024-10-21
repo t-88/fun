@@ -1,0 +1,215 @@
+[*] '/home/kindamadlad/Desktop/fun/learn/ir0onstone/got-override-alsr-64/got_overwrite-64'
+    Arch:       amd64-64-little
+    RELRO:      Partial RELRO
+    Stack:      No canary found
+    NX:         NX unknown - GNU_STACK missing
+    PIE:        No PIE (0x400000)
+    Stack:      Executable
+    RWX:        Has RWX segments
+    Stripped:   No
+[*] '/usr/lib/x86_64-linux-gnu/libc.so.6'
+    Arch:       amd64-64-little
+    RELRO:      Partial RELRO
+    Stack:      Canary found
+    NX:         NX enabled
+    PIE:        PIE enabled
+    SHSTK:      Enabled
+    IBT:        Enabled
+[x] Starting local process '/home/kindamadlad/Desktop/fun/learn/ir0onstone/got-override-alsr-64/got_overwrite-64'
+[+] Starting local process '/home/kindamadlad/Desktop/fun/learn/ir0onstone/got-override-alsr-64/got_overwrite-64': pid 2727
+0 b'%0$p\n'
+1 b'\n'
+2 b'0xa702431\n'
+3 b'\n'
+4 b'0xfbad2088\n'
+5 b'\n'
+6 b'0x29ac92a5\n'
+7 b'\n'
+8 b'(nil)\n'
+9 b'\n'
+10 b'(nil)\n'
+11 b'\n'
+12 b'0xa70243625\n'
+13 b'\n'
+14 b'0x2000\n'
+15 b'\n'
+16 b'0xc0000\n'
+17 b'\n'
+18 b'0x8000\n'
+19 b'\n'
+20 b'0x90000\n'
+21 b'\n'
+22 b'0x8\n'
+23 b'\n'
+24 b'0x40\n'
+25 b'\n'
+26 b'0x4\n'
+27 b'\n'
+28 b'0x40\n'
+29 b'\n'
+30 b'0xc\n'
+31 b'\n'
+32 b'0x2\n'
+33 b'\n'
+34 b'0x800000000000000e\n'
+35 b'\n'
+36 b'(nil)\n'
+37 b'\n'
+38 b'(nil)\n'
+39 b'\n'
+40 b'(nil)\n'
+41 b'\n'
+42 b'(nil)\n'
+43 b'\n'
+44 b'(nil)\n'
+45 b'\n'
+46 b'(nil)\n'
+47 b'\n'
+48 b'(nil)\n'
+49 b'\n'
+50 b'(nil)\n'
+51 b'\n'
+52 b'(nil)\n'
+53 b'\n'
+54 b'(nil)\n'
+55 b'\n'
+56 b'(nil)\n'
+57 b'\n'
+58 b'0x7b56039e38e0\n'
+59 b'\n'
+60 b'0xb\n'
+61 b'\n'
+62 b'0x1\n'
+63 b'\n'
+64 b'0x1\n'
+65 b'\n'
+66 b'0x1\n'
+67 b'\n'
+68 b'0x400040\n'
+69 b'\n'
+70 b'0x7b56039e183c\n'
+71 b'\n'
+72 b'0x7f0\n'
+73 b'\n'
+74 b'0x7ffcc4642369\n'
+75 b'\n'
+76 b'0x7b56039c0000\n'
+77 b'\n'
+78 b'0x10101000000\n'
+79 b'\n'
+80 b'0x2\n'
+81 b'\n'
+82 b'0xbfebfbff\n'
+83 b'\n'
+84 b'0x7ffcc4642379\n'
+85 b'\n'
+86 b'0x64\n'
+87 b'\n'
+88 b'0x7ffcc4641f70\n'
+89 b'\n'
+90 b'0x401198\n'
+91 b'\n'
+92 b'0x1\n'
+93 b'\n'
+94 b'0x7b5603629d90\n'
+[*] running in new terminal: ['/usr/bin/gdb', '-q', '/home/kindamadlad/Desktop/fun/learn/ir0onstone/got-override-alsr-64/got_overwrite-64', '-p', '2727']
+[x] Waiting for debugger
+[+] Waiting for debugger: Done
+[*] Switching to interactive mode
+
+(nil)
+
+0x40118a
+
+0x1c4642070
+
+0x7ffcc4642088
+
+(nil)
+
+0x2c6e8e148cc2347b
+
+0x7ffcc4642088
+
+0x40118a
+
+(nil)
+
+0x7b56039fc040
+
+0xd39706dcb3c0347b
+
+0xdac288d1b648347b
+
+0x7b5600000000
+
+(nil)
+
+(nil)
+
+0x7ffcc4642088
+
+(nil)
+
+0x8504ec472b27b700
+
+(nil)
+
+0x7b5603629e40
+
+0x7ffc00000000
+
+0x7ffcc4642098
+
+0x7b56039fd2e0
+
+(nil)
+
+(nil)
+
+0x401060
+
+0x7ffcc4642080
+
+(nil)
+
+(nil)
+
+0x40108a
+
+0x7ffcc4642078
+
+0x1c
+
+0x1
+
+0x7ffcc46423bd
+
+(nil)
+
+0x7ffcc4642412
+
+0x7ffcc4642422
+
+0x7ffcc4642434
+
+0x7ffcc4642447
+
+0x7ffcc464245b
+
+0x7ffcc4642484
+
+0x7ffcc4642497
+
+0x7ffcc46424c0
+
+0x7ffcc46424d4
+
+0x7ffcc46424e7
+
+0x7ffcc4642503
+
+0x7ffcc4642512
+
+[*] Interrupted
+[*] Stopped process '/home/kindamadlad/Desktop/fun/learn/ir0onstone/got-override-alsr-64/got_overwrite-64' (pid 2727)
