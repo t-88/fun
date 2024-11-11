@@ -1,0 +1,13 @@
+print("Enter flag:")
+input(40)
+if input != 40:
+    print(WRONG)
+    return 
+
+
+
+
+in 
+a = {}
+for i = 0; i < len(in); i++:
+    a.insert()

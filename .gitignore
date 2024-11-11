@@ -1,1 +1,7 @@
 utils/*
+.gdb_history
+.swp
+tmp
+rev/hidden
+docker
+*ubuntu*
